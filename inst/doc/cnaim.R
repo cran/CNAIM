@@ -2,21 +2,23 @@
 library(CNAIM)
 
 ## ----echo=TRUE, message=FALSE, warning=FALSE, class.source='highlight',comment=""----
-pof <- pof_transformer_11kv(utilisation_pct = 55,
-                            placement = "Indoor",
-                            altitude_m = 75,
-                            distance_from_coast_km = 20,
-                            corrosion_category_index = 2,
-                            age = 25,
-                            partial_discharge = "Low",
-                            oil_acidity = 0.1,
-                            temperature_reading = "Normal",
-                            observed_condition = "Good",
-                            reliability_factor = "Default")
+pof <- pof_transformer_11_20kv(
+  hv_transformer_type = "6.6/11kV Transformer (GM)",
+  utilisation_pct = 55,
+  placement = "Indoor",
+  altitude_m = 75,
+  distance_from_coast_km = 20,
+  corrosion_category_index = 2,
+  age = 25,
+  partial_discharge = "Low",
+  oil_acidity = 0.1,
+  temperature_reading = "Normal",
+  observed_condition = "Good",
+  reliability_factor = "Default")
 sprintf("The probability of failure is %.2f%% per year", 100*pof) 
 
 ## ----echo=TRUE, message=FALSE, warning=FALSE, class.source='highlight',comment=""----
-pof <- pof_transformer_11kv(age = 55)
+pof <- pof_transformer_11_20kv(age = 55)
 sprintf("The probability of failure is %.2f%% per year", 100*pof) 
 
 ## ----echo=FALSE, message=F----------------------------------------------------

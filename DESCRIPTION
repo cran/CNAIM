@@ -1,7 +1,7 @@
 Package: CNAIM
 Type: Package
 Title: Common Network Asset Indices Methodology (CNAIM)
-Version: 2.1.1
+Version: 2.1.2
 Authors@R: c(
     person("Emil", "Larsen", , "mohsin@utiligize.com", role = "aut"),
     person("Kalle", "Hansen", , "kalle@utiligize.com", role = "aut"),
@@ -26,10 +26,10 @@ RoxygenNote: 7.2.0
 Suggests: knitr, htmltools, readxl, testthat, rmarkdown, widgetframe
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2022-07-13 09:16:42 UTC; mohsinvindhani
+Packaged: 2022-08-06 05:35:12 UTC; mohsinvindhani
 Author: Emil Larsen [aut],
   Kalle Hansen [aut],
   Peter Larsen [aut],
   Mohsin Vindhani [aut, cre]
 Repository: CRAN
-Date/Publication: 2022-07-14 05:50:02 UTC
+Date/Publication: 2022-08-06 07:30:24 UTC

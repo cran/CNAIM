@@ -245,11 +245,13 @@ pre code {
   observed_condition = &quot;Default&quot;,
   reliability_factor = &quot;Default&quot;)
 sprintf(&quot;The probability of failure is %.2f%% per year&quot;, 100*pof) </code></pre>
-<pre><code>[1] &quot;The probability of failure is 0.01% per year&quot;</code></pre>
+<pre><code>[1] &quot;The probability of failure is 0.01% per year&quot; 
+[2] &quot;The probability of failure is 50.00% per year&quot;</code></pre>
 <p>The only mandetory input variable is age; the rest have defaults, so you can call the function like:</p>
 <pre class="r highlight"><code>pof &lt;- pof_transformer_11_20kv(age = 55)
 sprintf(&quot;The probability of failure is %.2f%% per year&quot;, 100*pof) </code></pre>
-<pre><code>[1] &quot;The probability of failure is 0.03% per year&quot;</code></pre>
+<pre><code>[1] &quot;The probability of failure is 0.03% per year&quot;  
+[2] &quot;The probability of failure is 127.31% per year&quot;</code></pre>
 </div>
 <div id="consequences-of-failure" class="section level2">
 <h2>Consequences of failure</h2>

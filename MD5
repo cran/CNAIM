@@ -1,4 +1,4 @@
-33686d5261680f37ac45f7e24d4bb1eb *DESCRIPTION
+385c3888ea8866438a0f8b5d0e7bdb7e *DESCRIPTION
 c9818d1715a7f7a03b8a1472fd1bd467 *LICENSE
 4cfb96b98c0e18df893bad41da17b152 *NAMESPACE
 8142c5eacd210ab2856acd3d934d3963 *R/beta_1.R
@@ -113,14 +113,14 @@ ce3781cac31551b9e292cb9ca2485f2a *R/pof_transformer_132kv.R
 4d0e7cfa36a0b950eae3d727b268b7a6 *R/pof_transformer_30_60kv.R
 b3c1e61df14bc9ffbd45df6e9bca9028 *R/pof_transformer_33_66kv.R
 faa3bd96b089967f90c5497c576061d8 *R/present_value_of_future_risk.R
-9587babf0893979ad5911a1103c69aed *R/risk_calculation.R
+ff379f18785f98d961154bf71078b248 *R/risk_calculation.R
 752f2f1998610cb25a9d1d01ed44ffa0 *R/risk_matrix_points_plot.R
 d5ef036eefcea0e1f3d87a7d486fa670 *R/risk_matrix_structure.R
 16138f51d02fdd324edbef98c3e91495 *R/risk_matrix_summary_plot.R
 b4ea5b19d83754c465e98d0e8bbf0ac1 *R/s_cof_swg_tf_ohl.R
 e356ca23896a9945a9936afcd03194c9 *R/sysdata.rda
 412b14ed5e0d0d12aff916f287508085 *R/weibull_model.R
-f1edc7a29b0ca98555f3b406d4aa6dd1 *R/zzz.R
+8719611c9c255dfb74c731e6b1ebb0ef *R/zzz.R
 3b6eb56a0a26ca02344735ca1209fc47 *README.md
 a904ef9f12d1c427f6c2b32f9d1d12f2 *build/vignette.rds
 43dc39e79e05be55d1381b3e80b8e775 *data/transformer_11kv_faults.rda
@@ -330,9 +330,9 @@ ef28ceaa1f269defdbf5cc72d2da1540 *man/pof_transformer_11_20kv.Rd
 559ac5fcb1d1d932bd3a11cbfa273771 *man/pof_transformer_132kv.Rd
 ed8ef83a6c077fafd6ab97cd05bf6397 *man/pof_transformer_30_60kv.Rd
 50cbec328456d6372e056656c06b0a07 *man/pof_transformer_33_66kv.Rd
-c3261d881c3592bb810ee51c2d500ab2 *man/predict_weibull_model.Rd
+af0ca476eb6f8f9609eccb07ddc4a99c *man/predict_weibull_model.Rd
 084eb558929d4bdc7d0da0ae17abaa04 *man/present_value_future_risk.Rd
-bc961885b31e8bc9efef7a5adbe914e5 *man/risk_calculation.Rd
+4d9a89af1c536c5a5c0c53be69e27cc3 *man/risk_calculation.Rd
 933164d8e9dd2a5b6fa8a63a6f7d69fe *man/risk_matrix_points_plot.Rd
 0037083c3542eaa8678a09fa79fb6363 *man/risk_matrix_structure.Rd
 94d7c33c83b773f857064e6bf2acd9db *man/risk_matrix_summary_plot.Rd
@@ -401,7 +401,7 @@ b50bf9799010de595e76fb59ad7ab6f5 *tests/testthat/test-future_transformer_04_10kv
 cea3cdd9c85e6da707a317e0d6e78688 *tests/testthat/test-initial_health.R
 865a88f72bbead2436ef0d578f3504de *tests/testthat/test-location_factor.R
 c857a1ae3645c83dee4bf29dc310d672 *tests/testthat/test-location_factor_sub.R
-829bdea5cf07f2fc1a2f8ec839c8bcf4 *tests/testthat/test-matrix_functions.R
+4d470327fea80bda9639b00eddcf84e7 *tests/testthat/test-matrix_functions.R
 a353203ce4abc25f015cf1c2f84d40f3 *tests/testthat/test-mmi.R
 477bb79c945c8a707761f66ac7634498 *tests/testthat/test-n_cof_excl_ehv_132kv_tf.R
 1cfbf47fa2d8b3cc413e31fbc2f4f40f *tests/testthat/test-oil_test_modifier.R
@@ -462,7 +462,7 @@ bfef57418a2969de7ee5453aabc58db6 *tests/testthat/test-pof_switchgear_secondary_1
 f7af18dbc45fd9a4a857c198b3b9758d *tests/testthat/test-pof_transformer_30_60kv.R
 5cb3f02922b0b52c85ba677421751ae5 *tests/testthat/test-pof_transformer_33_66kv.R
 e992893667df93ccdb666a72c13b9d41 *tests/testthat/test-present_value_of_future_risk.R
-0eab74f33b291ea8630f99a7ab0326f5 *tests/testthat/test-risk_calculation.R
+82818ae395ca58cf621ae845e1e15600 *tests/testthat/test-risk_calculation.R
 57a8b00010d9bc0d70d0dd900c9e6c19 *tests/testthat/test-risk_matrix_structure.R
 a6638ced06629630c1adb0159d2b2494 *tests/testthat/test-s_cof_swg_tf_ohl.R
 915b09b485d1ff0adbc8e34d3d21b4cb *tests/testthat/test-weibull_model.R
